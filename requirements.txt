@@ -2,3 +2,4 @@ streamlit>=1.49.0
 plotly>=6.3.0
 pandas>=2.0.0
 numpy>=1.26.0
+matplotlib>=3.5.0
