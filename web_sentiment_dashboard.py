@@ -35,7 +35,7 @@ st.markdown("""
 @st.cache_data
 def load_and_process_data():
     # Load data
-    df = pd.read_csv('/mnt/c/Users/prava/Downloads/amazon.csv')
+    df = pd.read_csv('amazon.csv')
     
     # Process sentiment
     df['rating_numeric'] = pd.to_numeric(df['rating'], errors='coerce')
